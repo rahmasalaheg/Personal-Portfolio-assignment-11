@@ -381,7 +381,6 @@ var themeGradients = [
 var colorGrid = document.getElementById("theme-colors-grid");
 
 for (let k = 0; k < themeGradients.length; k++) {
-
   var colorBtn = document.createElement("button");
   colorBtn.className =
     "w-8 h-8 rounded-full border border-slate-300 dark:border-slate-700 transition-all cursor-pointer";
